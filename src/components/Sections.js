@@ -5,7 +5,7 @@ import rsvp from "../assets/images/rsvp.png";
 
 const Sections = () => {
   return (
-    <section className="mx-auto container flex lg:flex-row flex-col justify-between">
+    <section className="mx-auto container flex lg:flex-row flex-col justify-between p-4 space-y-8 lg:space-y-0">
       <div className="flex flex-col space-y-10 lg:w-[384px]">
         <img src={aboutUs} alt="" />
         <div className="space-y-6">
@@ -18,7 +18,7 @@ const Sections = () => {
           </p>
           <p
             href="#"
-            className="inline-flex flex-col items-center justify-start px-6 py-4  border  text-xl leading-normal text-center border-[#C6754D] bg-[#FCF9F7] text-[#C6754D] font-Montaga"
+            className="inline-flex flex-col items-center justify-start px-6 py-3  border  text-xl leading-normal text-center border-[#C6754D] bg-[#FCF9F7] text-[#C6754D] font-Montaga"
           >
             Read more
           </p>
@@ -36,7 +36,7 @@ const Sections = () => {
           </p>
           <p
             href="#"
-            className="inline-flex flex-col items-center justify-start px-6 py-4  text-xl leading-normal text-center border border-[#C6754D] bg-[#FCF9F7] text-[#C6754D] font-Montaga"
+            className="inline-flex flex-col items-center justify-start px-6 py-3  text-xl leading-normal text-center border border-[#C6754D] bg-[#FCF9F7] text-[#C6754D] font-Montaga"
           >
             Get the gist
           </p>
@@ -52,7 +52,7 @@ const Sections = () => {
           </p>
           <p
             href="#"
-            className="inline-flex flex-col items-center justify-start px-6 py-4 border border-[#C6754D] bg-[#FCF9F7] text-[#C6754D] text-xl leading-normal text-center  font-Montaga"
+            className="inline-flex flex-col items-center justify-start px-6 py-3 border border-[#C6754D] bg-[#FCF9F7] text-[#C6754D] text-xl leading-normal text-center  font-Montaga"
           >
             Here
           </p>

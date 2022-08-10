@@ -4,7 +4,7 @@ import heroBg from "../assets/images/mope+dimeji-hero.png";
 const Hero = () => {
   return (
     <section className="h-screen w-screen bg-top flex items-end justify center relative overflow-hidden">
-        <img src={heroBg} alt=""  className="absolute top-0 w-screen"/>
+        <img src={heroBg} alt=""  className="absolute top-0 lg:w-screen h-screen lg:h-full aspect-square"/>
       <div className="blackGradient w-full h-[50vh] flex items-center relative z-10">
         <div className="container mx-auto">
           <div className="flex flex-col space-y-14 items-center justify-center p-10 mt-40">
