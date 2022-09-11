@@ -18,7 +18,7 @@ const Home = () => {
         <Quote />
         <Sections />
         <div className="my-20 w-screen aspect-video">
-          <iframe className="w-full aspect-video" src="https://www.youtube.com/embed/krrAuv-42zo" title="We're The Unconventionals!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe className="w-full aspect-video" src="https://www.youtube.com/embed/krrAuv-42zo" title="Meet The Unconventionals!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <Quote2 />
         {/* <SaveHero/>
