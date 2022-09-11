@@ -24,7 +24,7 @@ const about = {
 
     Mopelola. 
     
-    *#TheUnconventionals*
+    #TheUnconventionals
     `,
 };
 
