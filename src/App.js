@@ -1,28 +1,26 @@
 
 import './App.css';
-// import Hero from './components/Hero';
-// import NavBar from './components/NavBar';
-// import Quote from './components/Quote';
-// import Sections from './components/Sections';
-// import video from "./assets/images/video.png"
-// import Quote2 from './components/Quote2';
-import Footer from './components/Footer';
-import SaveDateBody from './components/SaveDateBody';
-import SaveHero from './components/SaveHero';
+import { Routes, Route } from "react-router-dom";
+import Home from './views/Home';
+import OurStory from './views/OurStory';
+import AboutUs from './views/AboutUs';
+import ScrollToTop from './components/ScrollTop';
+import Welcome from './views/Welcome';
 
 function App() {
   return (
-    <div className="App bg-[#FCF9F7] md:h-screen lg:h-auto space-y-10 md:space-y-16 lg:space-y-20 text-[#2B1105] w-screen overflow-x-hidden">
-      {/* <Hero/>
-      <NavBar/>
-      <Quote/>
-      <Sections/>
-      <img src={video} alt="" className="my-20"/>
-      <Quote2/> */}
-      <SaveHero/>
-      <SaveDateBody/>
-      <Footer/>
-    </div>
+    <>
+    
+    <ScrollToTop/>
+    <Routes>
+    <Route path="/" element={<Welcome/>}/>
+      <Route path="/home" element={<Home/>}/>
+      <Route path="/about" element={<AboutUs/>}/>
+      <Route path="/our-story" element={<OurStory/>}/>
+
+    </Routes>
+    </>
+   
   );
 }
 
