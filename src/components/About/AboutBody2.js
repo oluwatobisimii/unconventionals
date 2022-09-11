@@ -31,31 +31,31 @@ const about = {
 const AboutBody2 = () => {
   return (
     <section className="container mx-auto p-6 lg:px-10 space-y-20 columns-1 lg:columns-2 gap-12">
-       <div className="space-y-3 md:space-y-6 ">
-          <h1 className="font-BonVivant font-serifbold text-[20px] md:text-4xl">
-            Meet The Bride
-          </h1>
-
-          <p className="whitespace-pre-line font-Montaga text-[14px] md:text-base">
-            {about.bride}
-          </p>
-        </div>
-
-        <img src={about2} alt="" className="hidden lg:block"/>
-
-        <img src={about3} alt=""  className=""/>
-
-        <div className="space-y-3">
+      <div className="space-y-3 md:space-y-6 ">
         <h1 className="font-BonVivant font-serifbold text-[20px] md:text-4xl">
-            Meet The Groom
-          </h1>
+          Meet The Bride
+        </h1>
 
-          <p className="whitespace-pre-line font-Montaga text-[14px] md:text-base">
-            {about.groom}
-          </p>
-        </div>
+        <p className="whitespace-pre-line font-Montaga text-[14px] md:text-base">
+          {about.bride}
+        </p>
+      </div>
 
-        <img src={about3} alt=""  className="lg:hidden"/>
+      <img src={about3} alt="" className="hidden lg:block" />
+
+      <img src={about2} alt="" className="" />
+
+      <div className="space-y-3">
+        <h1 className="font-BonVivant font-serifbold text-[20px] md:text-4xl">
+          Meet The Groom
+        </h1>
+
+        <p className="whitespace-pre-line font-Montaga text-[14px] md:text-base">
+          {about.groom}
+        </p>
+      </div>
+
+      <img src={about3} alt="" className="lg:hidden" />
     </section>
   );
 };

@@ -23,8 +23,9 @@ const StoryHero = () => {
       </section>
       <div className=" md:hidden text-[#2B1105] py-8 px-4 space-y-[8px]">
         <p className="text-4xl md:text-8xl lg:text-9xl font-serifbold leading-tight text-center font-BonVivant">
-        Meet Mope & Dimeji
+        How Did We Meet?
         </p>
+        <p className="text-[20px] md:text-4xl lg:text-6xl font-bold  text-center  font-Montaga w-[60%]lg:w-[70%] mx-auto leading-[130%]">Both of us met in an unconventional way - some could say that the post-COVID era impacted this - on Instagram.</p>
       </div>
     </div>
   );

@@ -26,6 +26,7 @@ const AboutHero = () => {
         Meet Mope & Dimeji
         </p>
         <p className="text-[20px] md:text-4xl lg:text-6xl font-bold  text-center  font-Montaga w-[60%]lg:w-[70%] mx-auto leading-[130%]">Two creatives in love with God, passionate about impacting lives and on a path to influence societies, unconventionally.</p>
+        
       </div>
     </div>
   );

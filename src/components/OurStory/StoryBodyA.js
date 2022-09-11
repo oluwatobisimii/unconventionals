@@ -6,7 +6,7 @@ const StoryBodyA = () => {
         <>
         <section className="container mx-auto p-4">
             <div className=" text-xl lg:text-3xl leading-normal text-center  font-Montaga md:w-[70%] 2xl:w-[60%] mx-auto py-3 lg:py-10">
-                <span>Two creatives in love with God, passionate about impacting lives and on a path to influence societies, unconventionally.</span>
+                <span>Both of us met in an unconventional way - some could say that the post-COVID era impacted this - on Instagram.</span>
             </div>
         </section>
             
